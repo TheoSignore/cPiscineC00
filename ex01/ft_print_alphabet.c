@@ -6,7 +6,7 @@
 /*   By: tsignore <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/02 14:28:08 by tsignore          #+#    #+#             */
-/*   Updated: 2020/07/02 14:53:10 by tsignore         ###   ########.fr       */
+/*   Updated: 2020/07/02 16:08:03 by tsignore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,5 @@ void	ft_print_alphabet(void)
 
 	letter = 96;
 	while (letter++ < 122)
-	{
 		write(1, &letter, 1);
-	}
 }
