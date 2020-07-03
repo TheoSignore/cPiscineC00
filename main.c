@@ -1,6 +1,5 @@
-void ft_print_comb2(void);
-
+void ft_putnbr(int a);
 int main()
 {
-	ft_print_comb2();
+	ft_putnbr(2147483647);
 }
